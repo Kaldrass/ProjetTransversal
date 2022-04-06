@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
-    <script src="index.js"></script>
+    {% load static %}
+    <script src="{% static 'jquery.js' %}"></script>
+    <link rel="stylesheet" type="text/css" href="{% static 'index.css' %}" media="screen" />
+    <script src="{% static 'index.js' %}"></script>
     <title>Interface Robot</title>
 </head>
 <body>
@@ -19,6 +21,14 @@
         <button onclick="" type="button" id="left" class="main-button">&larr;</button>
         <button onclick="" type="button" id="right" class="main-button">&rarr;</button>
         <button onclick="" type="button" id="down" class="main-button">&darr;</button>
+    </div>
+    <form action="premierTest" method="post"> {% csrf_token %}
+        <button>
+            Test
+        </button>
+    </form>
+    <div id="output">
+        <p>{{ output }}</p>
     </div>
 </body>
 </html>
