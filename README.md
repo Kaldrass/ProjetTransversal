@@ -30,5 +30,28 @@ Transmission donnée des capteurs :
 
 
 ---
-TODO  
-- Serveur web pour commandes manuelles
+
+# Serveur Web / Scripts Python
+
+## Commandes utilisées pour mettre en place le serveur
+**Ne pas refaire quand on change de machine**
+
+### Création serveur. 
+- `django-admin startproject mysite`   
+- `python3 manage.py migrate` 
+
+### Création app cmdRobot  
+`python3 manage.py startapp cmdRobot`.  
+
+### Gérer requêtes HTTP. 
+TODO. 
+
+### Configuration pour Templates, CSS, JS. 
+TODO. 
+
+## Packages nécessaires
+- Django (framework)
+- PySerial (communication par port série)
+
+## Lancer le serveur
+`python3 manage.py runserver`
