@@ -1,8 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-
-
-# import interface
+from .interface import func
 
 
 def index(request):
@@ -11,6 +9,7 @@ def index(request):
 
 
 def premierTest(request):
-    success = ":)"
+    success = func()
     # success = interface.forward()
     return render(request, 'index.html', {'output': success})
+
