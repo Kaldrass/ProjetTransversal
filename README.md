@@ -20,9 +20,8 @@ Etablissement de la connexion :
 `Hello` envoyé par Raspberry, `Hello` envoyé par le STM32 en retour
 
 Signaux de commande :  
-- `fwdXX` pour avancer de XX centimètres.  
-- `bwdXX` pour reculer de XX centimètres.  
-- `rotXX` pour tourner dans le sens horaire de XX0 degrés.  
+- `D[+/-]###F` pour se déplacer de +/- ### centimètres.  
+- `R[+/-]###F` pour tourner de +/- ### degrés. (sens horaire 
 
 Transmission donnée des capteurs :  
 - `cX` pour indiquer transmission données de capteur (X indique le capteur).
