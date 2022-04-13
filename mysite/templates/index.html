@@ -17,18 +17,13 @@
         <span class="slider"></span>
     </label>
     <div id="gridwrap">
-        <button onclick="" type="button" id="up" class="main-button">&uarr;</button>
-        <button onclick="" type="button" id="left" class="main-button">&larr;</button>
-        <button onclick="" type="button" id="right" class="main-button">&rarr;</button>
-        <button onclick="" type="button" id="down" class="main-button">&darr;</button>
-    </div>
-    <form action="premierTest" method="post"> {% csrf_token %}
-        <button>
-            Test
-        </button>
-    </form>
-    <div id="output">
-        <p>{{ output }}</p>
+        <button onclick="ok(0)" type="button" id="up" class="main-button">&uarr;</button>
+        <button onclick="ok(1)" type="button" id="left" class="main-button">&larr;</button>
+        <button onclick="ok(2)" type="button" id="right" class="main-button">&rarr;</button>
+        <button onclick="ok(3)" type="button" id="down" class="main-button">&darr;</button>
+        <div id="output">
+            <p>{{ output }}</p>
+        </div>
     </div>
 </body>
 </html>

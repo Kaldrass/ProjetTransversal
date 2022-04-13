@@ -1,8 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-
-
-# import interface
+from .interface import func
 
 
 def index(request):
@@ -10,7 +8,10 @@ def index(request):
     #  return HttpResponse("Hello, world. You're at the cmdRobot index.")
 
 
-def premierTest(request):
-    success = ":)"
+def arrowMvt(request):
+    # TODO : Vérifier code côté JS + Lire le JSON transmis + Checker la config Django
+    inst = b'D+020F'
+    print("front")
+    success = func(inst)
     # success = interface.forward()
     return render(request, 'index.html', {'output': success})
