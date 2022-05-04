@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e5b0554a-57b2-40c5-87ca-7b1702d19d26" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/DjangoSettings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/cmdRobot/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/cmdRobot/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/cmdRobot/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/cmdRobot/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/cmdRobot/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/cmdRobot/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/cmdRobot/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/static/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/static/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/static/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testSerial.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="TaskManager">
+    <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ptcPython$django.coverage" NAME="django Coverage Results" MODIFIED="1649226867097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
