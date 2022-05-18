@@ -1,5 +1,6 @@
 import multiprocessing as mp
 import traitement
+from comm.testsParallelisme import communication
 
 '''
 Initialisation de tous les process/threads
@@ -16,7 +17,11 @@ if __name__ == '__main__':
     q = ctx.Queue()
     sem = mp.Semaphore(0)
 
-    p1 = ctx.Process(target=traitement.traitement)
+    # Process traitement donnée capteur
+    p1 = ctx.Process(target=traitement.demultiplexeur, args=q)
+    p2 = ctx.Process(target=communication.comStm, args=(sem, q))
+
+    # Process socket
     p1.start()
     p1.join()
 
